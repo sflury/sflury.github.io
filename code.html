@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script async data-id="101420592" src="//static.getclicky.com/js"></script>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -49,7 +50,7 @@ https://templatemo.com/tm-531-reflux
                 <li><a href="./teaching.html">Teaching</a></li>
                 <li><a href="./about.html">About Me</a></li>
                 <li><a href="./code.html">Coding</a></li>
-              <li><a href="./cv.html">CV</a></li>
+                <li><a href="./cv.html">CV</a></li>
               </ul>
             </nav>
 
@@ -57,52 +58,85 @@ https://templatemo.com/tm-531-reflux
               <p>template &copy 2019 Reflux Design<br>
               background by <a href=https://webbtelescope.org/contents/media/images/2023/101/01GNYHXG26ZPW9DW7KTXQH116G?Category=03-galaxies&Category=04-nebulas&itemsPerPage=100&page=1>
               NASA/ESA/USRA/STScI</a><br>
-              all other content &copy Sophia Flury 2023</a></p>
+              all other content &copy Sophia Flury 2023
+            </p>
             </div>
           </div>
         </div>
       </div>
 
-      <section class="section teaching">
+      <section class="section coding" data-section="coding">
         <div class="container">
           <div class="section-heading">
-            <h2>Teaching</h2>
+            <h2>About Me</h2>
             <div class="line-dec"></div>
             <span
               >
-              I have experience with a variety of introductory astronomy classes both for
-              majors and for non-majors. My most extensive TA work involved developing and
-              teaching observational astronomy labs involving the use of python and
-              numerical methods. These labs focused on developing specific technical skills
-              in python for solving problems in data analysis and modeling, particularly in
-              the use of linear algebra, convergence tests, boundary and initial value
-              problems, modular design, array management, and image processing.
-              </span
-            >
+              As an astronomer, I spend a lot of time programming. While not all
+              of my code is suitable for human consumption (i.e., not
+              documented), below are a few of the software packages I have
+              written for general use. Source code for these projects is
+              publicly available on <a href="https://github.com/sflury">my GitHub page</a>
+              under the GNU/GPL v3.
+              </span>
           </div>
-          <div class="left-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/mandelbrot.png" alt="" />
-                </div>
+          <div class="line-dec"></div>
+            <h2>Some Non-Astronomy Interests</h2>
+          <div class="line-dec"></div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4><a href="https://github.com/sflury/histogram">histogram</a></h4>
+                <p>
+                  Calculates the "true" histogram or population
+                  fraction (ratio of a subset to the total distribution) for a
+                  dataset by accounting for uncertainties in the data.
+                </p>
               </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4>Fractal Visualization</h4>
-                  <p>
-                    To illustrate the exercises I developed for my students, here is a zoom-in on the
-                    fractal produced from the Mandelbrot set. I had students write functions to test
-                    the Mandelbrot set for divergence over a grid of input values and map the test
-                    results into an image like the one shown here. The skills they developed here
-                    were then directly applied to manual data reduction of raw images they recorded
-                    on a CCD mounted on a 17 inch reflector.
-                  </p>
-                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4><a href="https://github.com/sflury/kendall">kendall</a></h4>
+                <p>
+                  Calculates the non-parameteric correlation coefficient Kenall's
+                  tau, accounting for censoring (upper limits). Also includes
+                  assessment of effects of outliers and uncertainties on the
+                  correlation estimator by bootstrapping and Monte Carlo
+                  simulation.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4><a href="https://github.com/sflury/redneb">redneb</a></h4>
+                <p>
+                  Calculates nebular extinction from hydrogen
+                  Balmer series emission lines, accounting for temperature and
+                  density of the gas. Stellar absorption corrections are
+                  optionally included in the solution but require equivalent
+                  widths.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4><a href="https://github.com/sflury/feldcous">feldcous</a></h4>
+                <p>
+                  Robust statistics of low count sources, including detection
+                  probabilities, confidence intervals, and sampling of the
+                  highly non-Gaussian probability distributions.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
