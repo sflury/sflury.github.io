@@ -38,6 +38,28 @@ a,
 a:hover {
     text-decoration: none;
 }
+a.one:link {
+  color: #fe46a5;
+  font-weight: 700;
+  font-size: 18px;
+}
+a.one:visited {
+  color: #fe46a5;
+  font-weight: 700;
+  font-size: 18px;
+}
+a.two:link {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fe46a5;
+  letter-spacing: 0.25px;
+}
+a.two:visited {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fe46a5;
+  letter-spacing: 0.25px;
+}
 
 p {
     font-size: 16px;
