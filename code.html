@@ -42,7 +42,7 @@ https://templatemo.com/tm-531-reflux
             </div>
             <div class="author-content">
               <h4>Sophia Flury, PhD</h4>
-              <span>Astronomer<br>Royal Observatory of Edinburgh<br>sflury@roe.ac.uk</span>
+              <span>Astronomer<br>Leverhulme Fellow<br>Royal Observatory of Edinburgh<br>sflury@roe.ac.uk</span>
             </div>
             <nav class="main-nav" role="navigation">
               <ul>
@@ -88,25 +88,38 @@ https://templatemo.com/tm-531-reflux
                 <h4><a class="two" href="https://github.com/sflury/OutLines">OutLines</a></h4>
                 <p>
                   Determines the emission, absorption, and P Cygni line profiles arising
-                  from galactic outflows under the Sobolev approximation with no
-                  self absorption. Can be used for modeling observed spectral
-                  features or for predictive purposes.
+                  from winds, outflows, and bubbles under the Sobolev approximation following
+                  (  <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251210650F" class="one">
+                    Flury  2025</a>).
+                  Can be used for modeling observed spectral features or for predictive
+                  purposes.
                 </p>
               </div>
             </div>
 
-            <!---
             <div class="col-md-6">
               <div class="service-item">
-                <h4><a class="two" href="https://github.com/sflury/towrecen">towrecen</a></h4>
+                <h4><a class="two" href="https://github.com/sflury/towrecan">towrecan</a></h4>
                 <p>
-                  Calculates various statistical assessments of dispersion (towrecen in Old English)
-                  for two-dimensional data sets, including PCA, minimum Euclidean distances,
-                  total least squares, and Demming regression.
+                  Characterizes the orthogonal dispersion in two-dimensional
+                  data sets using a combination of minimum Euclidean distance
+                  and principal component analysis. Includes error propagation.
                 </p>
               </div>
             </div>
-            -->
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="service-item">
+                  <h4><a class="two" href="https://github.com/sflury/heatcool">heatcool</a></h4>
+                  <p>
+                    Computes heating and cooling rates of H II regions and the temperature
+                    solution for thermal balance under a variety of conditions.
+                    Includes new, state-of-the-art cooling functions
+                    for equilibrium and non-equilibrium scenarios.
+                  </p>
+                </div>
+              </div>
 
             <div class="col-md-6">
               <div class="service-item">
@@ -138,25 +151,12 @@ https://templatemo.com/tm-531-reflux
 
             <div class="col-md-6">
               <div class="service-item">
-                <h4><a class="two" href="https://github.com/sflury/RedNeb">RedNeb</a></h4>
-                <p>
-                  Derives nebular extinction from hydrogen
-                  Balmer series emission lines, accounting for temperature and
-                  density of the gas. Stellar absorption corrections are
-                  optionally included in the solution but require equivalent
-                  widths.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="service-item">
                 <h4><a class="two" href="https://github.com/sflury/KaplanMeier">KaplanMeier</a></h4>
                 <p>
                   Calculates and evaluates non-parametric survival functions for
                   data with censoring (lower/upper limits) to determine if a
                   measurement is consistent with a reference population / data
-                  set.
+                  set. Includes censored KS-style tests.
                 </p>
               </div>
             </div>
@@ -182,21 +182,6 @@ https://templatemo.com/tm-531-reflux
                   dataset by accounting for uncertainties in the data. Each
                   histogram bin is therefore treated as a Poisson binomial
                   variate.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="service-item">
-                <h4><a class="two" href="https://github.com/sflury/LinRegConf">LinRegConf</a></h4>
-                <p>
-                  Object class which, when instantiated, performs linear least
-                  squares regression using linear algebra (LUD or SVD to solve
-                  for the inverse) for a polynomial of arbitray specified order.
-                  Incorporates uncertainty in the abscissa (response variable)
-                  if provided. Computes confidence intervals on best-fit
-                  parameters. Includes plotting method to show fit with
-                  confidence intervals of arbitrary specified percentile.
                 </p>
               </div>
             </div>
